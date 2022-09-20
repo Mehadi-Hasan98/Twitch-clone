@@ -19,7 +19,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='fixed h-14  w-full flex-nowrap items-center p-4 bg-[#0e0e10] mb-[2px] z-10'>
+    <div className='fixed h-14 w-full flex-nowrap items-center p-4 bg-[#0e0e10] mb-[2px] z-10'>
         <div className='flex grow items-center justify-start'>
             <Link href="/">
                 <a className='flex'>
@@ -114,7 +114,7 @@ const Navbar = () => {
         {/* Right side */}
         <div className='hidden md:flex grow items-center justify-end'>
             <div className='flex items-center'>
-                <Link href='/'>
+                <Link href='/Component'>
                   <button className='px-4 py-[6px] rounded-lg font-bold bg-[#9147ff] mr-2'>
                     Account
                   </button>
@@ -144,7 +144,7 @@ const Navbar = () => {
                   <Link href='/'>Top Categories</Link>          
                 </li>
                 <li className='p-4 text-3xl font-bold'>
-                  <Link href='/'>Account</Link>          
+                  <Link href='/Component'>Account</Link>          
                 </li>
             </ul>
 
