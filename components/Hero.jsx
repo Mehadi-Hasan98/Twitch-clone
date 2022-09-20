@@ -6,7 +6,7 @@ const Hero = () => {
     <div className='relative overflow-hidden w-full pt-[56.25%]'>
       <iframe
         className='absolute top-0 left-0 right-0 bottom-0 w-full h-full'
-        src='https://www.youtube.com/embed/fJje8GEHrsU'
+        src='https://www.youtube.com/embed/fKNdoxRld34'
         frameBorder='0'
         allowFullScreen
       />
