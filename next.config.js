@@ -9,6 +9,7 @@ module.exports = {
     domains: [
       'avatars.githubusercontent.com',
       'lh3.googleusercontent.com',
+      'robohash.org'
     ]
   }
 }
