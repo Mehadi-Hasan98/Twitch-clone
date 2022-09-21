@@ -8,7 +8,7 @@ const SideMenu = () => {
   return (
     <div className='fixed w-14 sm:w-16 xl:w-[15rem] h-screen p-2 bg-[#0e0e10]'>
       <div>
-        <p className='hidden xl:flex uppercase font-bold text-sm pb-4'>
+        <p className='xl:flex uppercase font-bold text-white text-md py-8 pb-4'>
           Recommended Channels
         </p>
         <p>
@@ -24,6 +24,7 @@ const SideMenu = () => {
             <div>
               <p>{item.username}</p>
               <p className='text-gray-400'>{item.game_name}</p>
+              
             </div>
             <p className='flex items-center'>
               <BsDot color='red' size={40} />
@@ -33,7 +34,7 @@ const SideMenu = () => {
         </div>
       ))}
       <div>
-        <p className='hidden xl:flex uppercase font-bold text-sm py-4'>
+        <p className='hidden xl:flex uppercase font-bold text-sm'>
           Top Channels
         </p>
         <p>
@@ -41,7 +42,7 @@ const SideMenu = () => {
         </p>
       </div>
       {top_channels.map((item, index) => (
-        <div key={index} className='inline-flex items-center w-full py-[2px]'>
+        <div key={index} className='inline-flex items-center w-full py-[2px] pb-10'>
           <div>
             <Image src={item.avatar} width='50' height='50' alt='/' />
           </div>

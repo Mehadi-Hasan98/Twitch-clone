@@ -21,6 +21,7 @@ const Categories = () => {
           title='Just Chatting'
           viewers='233k Viewers'
           tag1='IRL'
+          
         />
         <CategoriesItem
           img='https://static-cdn.jtvnw.net/ttv-boxart/33214-188x250.jpg'

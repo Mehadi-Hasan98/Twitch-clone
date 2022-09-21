@@ -3,7 +3,7 @@ import React from 'react'
 
 const LiveChannelItem = ({img, profile_img, title, user, game}) => {
   return (
-    <div className='p-2 w-full '>
+    <div className='p-2 w-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-100 ...'>
       <Image src={img} alt='/' width='555' height='315' />
       <div className='flex pt-2'>
         <div className='pr-2'>

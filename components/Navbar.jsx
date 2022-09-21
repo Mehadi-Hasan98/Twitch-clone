@@ -57,10 +57,11 @@ const Navbar = () => {
             >
               <Menu.Items className='origin-top-right absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-[#0e0e10] ring-1 ring-white ring-opacity-5 focus:outline-none'>
                 <div className='py-1'>
+                  
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href='#'
+                        href='https://www.twitch.tv/p/en/about/'
                         className={classNames(
                           active
                             ? 'bg-gray-500 text-gray-100'
@@ -68,14 +69,89 @@ const Navbar = () => {
                           'block px-4 py-2 text-sm'
                         )}
                       >
-                        Settings
+                        About
                       </a>
                     )}
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href='#'
+                        href='https://twitchadvertising.tv/'
+                        className={classNames(
+                          active
+                            ? 'bg-gray-500 text-gray-100'
+                            : 'text-gray-200',
+                          'block px-4 py-2 text-sm'
+                        )}
+                      >
+                       Advertisers
+                      </a>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a
+                        href='https://blog.twitch.tv/en/'
+                        className={classNames(
+                          active
+                            ? 'bg-gray-500 text-gray-100'
+                            : 'text-gray-200',
+                          'block px-4 py-2 text-sm'
+                        )}
+                      >
+                       Blog
+                      </a>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a
+                        href='https://dev.twitch.tv/'
+                        className={classNames(
+                          active
+                            ? 'bg-gray-500 text-gray-100'
+                            : 'text-gray-200',
+                          'block px-4 py-2 text-sm'
+                        )}
+                      >
+                       Developers
+                      </a>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a
+                        href='https://www.twitch.tv/downloads'
+                        className={classNames(
+                          active
+                            ? 'bg-gray-500 text-gray-100'
+                            : 'text-gray-200',
+                          'block px-4 py-2 text-sm'
+                        )}
+                      >
+                       Download Apps
+                      </a>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a
+                        href='https://www.twitch.tv/p/en/giftcard/'
+                        className={classNames(
+                          active
+                            ? 'bg-gray-500 text-gray-100'
+                            : 'text-gray-200',
+                          'block px-4 py-2 text-sm'
+                        )}
+                      >
+                        Gift Card
+                      </a>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a
+                        href='https://help.twitch.tv/s/?language=en_US'
                         className={classNames(
                           active
                             ? 'bg-gray-500 text-gray-100'
@@ -90,7 +166,7 @@ const Navbar = () => {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href='#'
+                        href='https://www.twitch.tv/p/en/legal/privacy-policy/'
                         className={classNames(
                           active
                             ? 'bg-gray-500 text-gray-100'
@@ -98,7 +174,22 @@ const Navbar = () => {
                           'block px-4 py-2 text-sm'
                         )}
                       >
-                        License
+                        Privacy Policy
+                      </a>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a
+                        href='https://www.twitch.tv/p/legal/terms-of-service/'
+                        className={classNames(
+                          active
+                            ? 'bg-gray-500 text-gray-100'
+                            : 'text-gray-200',
+                          'block px-4 py-2 text-sm'
+                        )}
+                      >
+                        Terms
                       </a>
                     )}
                   </Menu.Item>

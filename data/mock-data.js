@@ -1,4 +1,4 @@
-export const rec_channels = [{"id":1,"avatar":"https://robohash.org/earumquasprovident.png?size=50x50&set=set1","username":"mbrangan0","game_name":"Pannier","rank":66},
+export const rec_channels = [{"id":1,"avatar":"https://robohash.org/earumquasprovident.png?size=50x50&set=set1","username":"mbrangan0","game_name":"Pannier","rank":66, "link": "https://www.twitch.tv/asunaweeb"},
 {"id":2,"avatar":"https://robohash.org/optioautsit.png?size=50x50&set=set1","username":"phubbart1","game_name":"Veribet","rank":50},
 {"id":3,"avatar":"https://robohash.org/utrationequia.png?size=50x50&set=set1","username":"mbuddington2","game_name":"Lotlux","rank":98},
 {"id":4,"avatar":"https://robohash.org/illumvelodio.png?size=50x50&set=set1","username":"shammerman3","game_name":"Latlux","rank":31},
