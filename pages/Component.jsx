@@ -12,7 +12,7 @@ export default function Component() {
         <div className="pb-4 m-auto">
           <Image src={session.user.image} className='rounded-full' alt="/" width="100" height="100"/>
         </div>
-        <button className="flex items-center justify-center p-3 bg-gray-600 border border-gray-600" onClick={() => signOut()}>Sign out</button>
+        <button className="flex items-center justify-center p-3 bg-gray-600 border border-gray-600 rounded-lg" onClick={() => signOut()}>Sign out</button>
       </div>
     )
   }
